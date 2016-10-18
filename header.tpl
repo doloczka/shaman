@@ -100,7 +100,7 @@
 						</div>
 					{/if}
 					<div>
-						<div class="container-fluid">
+						<div class="container">
 							<div class="row">
 								<div id="header_logo">
 									<a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}">

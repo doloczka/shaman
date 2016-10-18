@@ -2958,7 +2958,8 @@ a.thumbnail:focus {
 .alert-warning {
   background-color: #fe9126;
   border-color: #e4752b;
-  color: #fff; }
+  color: #f3f3f3;
+  }
   .alert-warning hr {
     border-top-color: #da681c; }
   .alert-warning .alert-link {
