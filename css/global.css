@@ -5785,6 +5785,7 @@ header {
       margin: 0px; }
   header .nav {
     background: #f3f3f3;
+    border-radius: 0px 0px 20px 20px;
     }
     header .nav .row {
       margin: 0px; }
@@ -6523,12 +6524,13 @@ table.table_block td {
         width: 100%; } }
     #home-page-tabs > li a {
       font: 600 21px/24px "Open Sans", sans-serif;
-      color: #555454;
+      color: #2dbe60;
       text-transform: uppercase;
       border: none;
       outline: none;
       margin: 0;
-      padding: 10px; }
+      padding: 10px;
+      }
       @media (min-width: 768px) {
         #home-page-tabs > li a {
           padding: 1px 10px; } }

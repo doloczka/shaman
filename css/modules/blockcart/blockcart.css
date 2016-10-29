@@ -133,7 +133,8 @@
 .cart_block .cart-prices {
   border-top: 1px solid #d6d4d4;
   font-weight: bold;
-  padding: 10px 20px 22px 20px; }
+  padding: 10px 20px 22px 20px;
+  }
   .cart_block .cart-prices .cart-prices-line {
     overflow: hidden;
     border-bottom: 1px solid #515151;
@@ -226,7 +227,8 @@
   #header .cart_block .cart-buttons {
     background: url(../../../img/cart-shadow.png) repeat-x #7ADF9C; }
 #header .block_content {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  }
 
 .cart_block #cart_block_summary,
 .cart_block .title_block span,
