@@ -225,7 +225,8 @@
     border: none;
     background: url(../../../img/cart-shadow.png) repeat-x #4DCD78; }
   #header .cart_block .cart-buttons {
-    background: url(../../../img/cart-shadow.png) repeat-x #7ADF9C; }
+    background: url(../../../img/cart-shadow.png) repeat-x #7ADF9C;
+    }
 #header .block_content {
   margin-bottom: 0;
   }

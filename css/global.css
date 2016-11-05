@@ -262,8 +262,9 @@ textarea {
   background-image: none; }
 
 a {
-  /*color: #777;*/
-  text-decoration: none; }
+  /* color: #777; */
+  text-decoration: none;
+  }
   a:hover, a:focus {
     color: #515151;
     text-decoration: underline; }
@@ -5748,7 +5749,7 @@ body {
   height: 100%;
   line-height: 18px;
   font-size: 13px;
-  color: #777;
+  color: #f3f3f3;
   }
   body.content_only {
     background: none;
@@ -7193,6 +7194,7 @@ div.star a:hover {
   background: #fff; }
 
 .breadcrumb {
+  color: #26A65B;
   display: inline-block;
   padding: 0 11px;
   border: 1px solid #d6d4d4;
@@ -7206,7 +7208,8 @@ div.star a:hover {
   overflow: hidden;
   margin-bottom: 16px;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  }
   .breadcrumb .navigation-pipe {
     width: 18px;
     display: inline-block;
@@ -7293,7 +7296,7 @@ div.star a:hover {
   .footer-container .container {
     padding-bottom: 100px; }
   .footer-container #footer {
-    color: #2dbe60;
+    color: #FFCE54;
     }
     .footer-container #footer .row {
       position: relative; }
@@ -7305,14 +7308,16 @@ div.star a:hover {
         .footer-container #footer .footer-block {
           margin-top: 20px; } }
     .footer-container #footer a {
-      color: #777777; }
+      color: #f3f3f3;
+      }
       .footer-container #footer a:hover {
         color: #fff; }
     .footer-container #footer h4 {
-      font: 600 18px/22px "Open Sans", sans-serif;
+      font: 400 22px/30px "Open Sans", sans-serif;
       color: #fff;
       margin: 0 0 13px 0;
-      cursor: pointer; }
+      cursor: pointer;
+      }
       @media (max-width: 767px) {
         .footer-container #footer h4 {
           position: relative;
@@ -7332,15 +7337,20 @@ div.star a:hover {
     .footer-container #footer ul li {
       padding-bottom: 8px; }
       .footer-container #footer ul li a {
-        font-weight: bold;
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4); }
+        font-weight: 300;
+        text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.4);
+        }
     .footer-container #footer #block_contact_infos {
-      border-left: 1px solid #515151; }
+      border-left: 1px solid #f3f3f3;
+      }
       @media (max-width: 767px) {
         .footer-container #footer #block_contact_infos {
           border: none; } }
       .footer-container #footer #block_contact_infos > div {
-        padding: 0 0 0 5px; }
+        padding: 0 0 0 5px;
+        color: #f3f3f3;
+        font-weight: 300;
+        }
         @media (max-width: 767px) {
           .footer-container #footer #block_contact_infos > div {
             padding-left: 0; } }
@@ -7358,7 +7368,8 @@ div.star a:hover {
             text-align: center;
             padding-right: 12px;
             float: left;
-            color: #908f8f; }
+            color: #FFCE54;
+            }
     .footer-container #footer .blockcategories_footer {
       clear: left; }
     .footer-container #footer #social_block {
@@ -7384,8 +7395,9 @@ div.star a:hover {
               width: 30px; } }
           .footer-container #footer #social_block ul li a {
             display: inline-block;
-            color: #908f8f;
-            font-size: 28px; }
+            color: #ffce56;
+            font-size: 28px;
+            }
             @media (min-width: 768px) and (max-width: 991px) {
               .footer-container #footer #social_block ul li a {
                 font-size: 20px; } }
@@ -7433,8 +7445,9 @@ div.star a:hover {
       left: 0; }
       .footer-container #footer .bottom-footer div {
         padding: 15px 0 0 0;
-        border-top: 1px solid #515151;
-        width: 100%; }
+        border-top: 1px solid #f3f3f3;
+        width: 100%;
+        }
 
 #reinsurance_block {
   clear: both !important; }
@@ -8473,7 +8486,8 @@ div.star.star_hover:after {
       border: none;
       margin-top: 10px; } }
   #cmsinfo_block > div {
-    padding: 35px 10px 0 0; }
+    padding: 35px 10px 0 0;
+    }
     @media (max-width: 767px) {
       #cmsinfo_block > div {
         padding-top: 20px; } }
@@ -8640,6 +8654,23 @@ header nav{
 #slider_row{
   margin-top: 10px;
 }
-#layer_cart .layer_cart_row span{
+.layer_cart_cart .layer_cart_row span {
   color: #74d578;
+}
+.layer_cart_product .layer_cart_product_info span{
+  color: #74d578;
+}
+.newsletter_block_left{
+  background: #F3F3F3;
+}
+.footer-container{
+  -webkit-box-shadow: 0 8px 6px -6px black;
+
+  -moz-box-shadow: 0 8px 6px -6px black;
+
+  box-shadow: 0 8px 6px -6px black;
+}
+.info_bar{
+  color: #26A65B;
+  padding-bottom: 35px;
 }

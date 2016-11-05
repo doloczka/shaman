@@ -46,11 +46,12 @@
       height: 45px;
       max-width: 267px;
       background: #3c3c3c;
-      border-color: #515151;
+      border-color: #51b57a;
       color: #fff;
       padding: 10px 43px 10px 12px;
       display: inline-block;
-      float: left; }
+      float: left;
+      }
       #footer #newsletter_block_left .form-group .form-control:focus {
         -moz-box-shadow: black 0px 0px 0px;
         -webkit-box-shadow: black 0px 0px 0px;
@@ -60,15 +61,17 @@
       border: none;
       background: none;
       text-align: center;
-      color: #908f8f;
-      padding: 8px; }
+      color: #ffce54;
+      padding: 8px;
+      }
       #footer #newsletter_block_left .form-group .button-small:before {
         content: "\f138";
         font-family: "FontAwesome";
         font-size: 28px;
         line-height: 28px; }
       #footer #newsletter_block_left .form-group .button-small:hover {
-        color: #fff !important; }
+        color: #E2B13C;
+        }
       #footer #newsletter_block_left .form-group .button-small span {
         display: none; }
   #footer #newsletter_block_left .warning_inline {

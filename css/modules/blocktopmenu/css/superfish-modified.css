@@ -24,7 +24,8 @@
 .sf-menu ul {
   position: absolute;
   top: -999em;
-  background: #fff; }
+  background: #7ADF9C;
+  }
   @media (max-width: 767px) {
     .sf-menu ul {
       position: relative; } }
@@ -140,11 +141,13 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu > li > ul {
   padding: 26px 30px 31px;
-  width: 100%; }
+  width: 100%;
+  }
   .sf-menu > li > ul > li > a {
     text-transform: uppercase;
     font: 600 16px/20px "Open Sans", sans-serif;
-    color: #333; }
+    color: #f3f3f3;
+    }
     .sf-menu > li > ul > li > a:hover {
       color: #515151; }
 
